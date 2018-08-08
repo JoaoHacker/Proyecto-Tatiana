@@ -1,0 +1,38 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Productos;
+
+import Tipos.Camaras;
+import Tipos.Tipo;
+
+/**
+ *
+ * @author MAURICIO RUIZ
+ */
+public class CanonELPH extends Producto{
+    
+    public CanonELPH(){
+       Tipo camara = new Camaras();
+        this.setAncho(9);
+        this.setBajoPedido("no");
+        this.setCantidad(5);
+        this.setCantidadPermitida(1);
+        this.setDescripcion("a cámara PowerShot ELPH 180 cuenta con características fáciles de usar para crear fotografías tan impresionantes como usted lo desee.");
+        this.setFabricante("Canon");
+        this.setGarantia(12);
+        this.setId(6);
+        this.setImagen("C:/Users/MAURICIO RUIZ/Dropbox/Proyecto final tatiana/MercaUdi/src/src/CamaraNikon.jpg");
+        this.setLargo(12);
+        this.setNombre("Camara Canon EOS");
+        this.setNumSerie("007");
+        this.setPais("Japon");
+        this.setPeso(7);
+       //this.setProveedor(); falta proveedor
+        this.setTipo(camara);
+        
+    }
+    
+}
